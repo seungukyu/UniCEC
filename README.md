@@ -1,7 +1,7 @@
-# UniGEC
-We introduce the **Unified-replacement GEC(Grammatical Error Correction) Dataset**, which combines results from multiple models to determine the likelihood of substituting synonyms for specific keywords. We collected a [research paper summary dataset](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=90), covering eight domains. We used multiple LLMs (``EXAONE-3.0-7.8B-Instruct``, ``KULLM3``, ``Llama-3.1-8B-Instruct``) and PLMs (``bert-base``, ``xlm-roberta-base``) to extract keywords and their synonyms, based on token occurrence probabilities.
+# UniCEC
+We introduce the **Unified-replacement CEC (Contextual Error Correction) Dataset**, which combines results from multiple models to determine the likelihood of substituting synonyms for specific keywords. We collected a [research paper summary dataset](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=90), covering eight domains. We used multiple LLMs (``EXAONE-3.0-7.8B-Instruct``, ``KULLM3``, ``Llama-3.1-8B-Instruct``) and PLMs (``bert-base``, ``xlm-roberta-base``) to extract keywords and their synonyms, based on token occurrence probabilities.
 
-<img width="2181" alt="Image" src="https://github.com/user-attachments/assets/dc56f6e5-15aa-4135-b947-f5258842eda0" />
+<img width="2181" alt="Image" src="https://github.com/user-attachments/assets/a2a4eafb-364c-463f-b661-632a0d05d5ba" />
 
 ### Examples
 We crawled synonyms in [Naver Korean Dictionary](https://ko.dict.naver.com).
